@@ -1,0 +1,56 @@
+/* CSS for Register Page */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f0f0f0; Change as needed */
+    /* background: url("../assets/bg.png") no-repeat center center;
+    background-size: cover;  Ensure the image covers the entire container */
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:15px;
+    height:70vh;
+    width:50vh;
+    background:white;
+  }
+  .form-container {
+    background-color: #ffffff; /* Change as needed
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Change as needed */
+  }
+  
+  .form-container h3 {
+    text-align: center;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Change as needed */
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Change as needed */
+    color: #ffffff; /* Change as needed */
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Change as needed */
+  }
+  
